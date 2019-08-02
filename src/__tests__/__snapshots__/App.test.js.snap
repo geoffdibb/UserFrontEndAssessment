@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot App 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "black",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <div>
+    <h1
+      backgroundcolor="black"
+    >
+      Home
+    </h1>
+    <button>
+      <a
+        href="/Home"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </button>
+    <button>
+      <a
+        href="/Register"
+        onClick={[Function]}
+      >
+        RegisterAccount
+      </a>
+    </button>
+    <button>
+      <a
+        href="/Login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+    </button>
+    <button>
+      <a
+        href="/ViewUsers"
+        onClick={[Function]}
+      >
+        View All Accounts
+      </a>
+    </button>
+  </div>
+</div>
+`;

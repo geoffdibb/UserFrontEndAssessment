@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Register 1`] = `
+<div>
+  <h2>
+    Register a new account 
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <br />
+    <label
+      for="Username"
+    >
+      Username: 
+    </label>
+    <input
+      id="Username"
+      name="Username"
+      required={true}
+      type="text"
+    />
+    <br />
+    <label
+      for="Email"
+    >
+      Email: 
+    </label>
+    <input
+      id="Email"
+      name="Email"
+      required={true}
+      type="Email"
+    />
+    <br />
+    <label
+      for="Password"
+    >
+      Password: 
+    </label>
+    <input
+      id="Password"
+      name="Password"
+      required={true}
+      type="Password"
+    />
+    <br />
+    <label
+      for="Password2"
+    >
+      Confirm Password: 
+    </label>
+    <input
+      id="Password2"
+      name="Password2"
+      type="Password"
+    />
+    <br />
+    <input
+      type="submit"
+      value="RegisterAccount"
+    />
+    <p
+      id="systemResponse"
+    >
+       
+    </p>
+  </form>
+  <br />
+</div>
+`;
